@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="utf-8">
+<meta name="description" content="BlockSniffer">
+<meta name="Aaron sheridan" content ="BlockSniffer">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<html>
+<head>
+	<title> BlockSniffer Register</title>
+	
+	
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" a href="css/Login.css">
+	<!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="C:\Users\Aaron\Desktop\FYP\web3j-master\web3j-master"></script>
+	<!-- font awesome -->
+	<script src="https://kit.fontawesome.com/526de0bf72.js" crossorigin="anonymous"></script>
+	
+	
+
+</head>
+
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">BlockSniffer</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="Bitcoin.html">Bitcoin</a></li>
+      <li><a href="Ethereum.html">Ethereum</a></li>
+	  
+	  <ul class="nav navbar-nav">
+      <li>  <a href ="Register1.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+	  <li> <a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+
+</nav><br>
+
+<div class="containerLoginR">
+	
+	<img class="img-circle" src="img/Reg.png"/>
+	<form method = "POST"> -->
+	
+		 <div class="form-inputR">
+			<input type="text" name="FirstName" placeholder="First Name" class="far fa-user"/>	
+		 </div>
+		 <div class="form-inputR">
+			<input type="text" name="secondName" placeholder="Second Name" class="far fa-user"/>
+		 </div>
+		 <div class="form-inputR">
+			<input type="text" name="Uname" placeholder="Username" class="far fa-user"/>
+		 </div>
+		 <div class="form-inputR">
+			<input type="password" name="Pword" placeholder="Password" class="far fa-user"/>
+		 </div>
+		 <div class="form-inputR">
+			<input type="text" name="Email" placeholder="Email" class="far fa-user"/>
+		 </div>
+			<input type="submit" type="submit" value="Register" class="btn-register"/>
+	
+</body>
+
+
+</html>

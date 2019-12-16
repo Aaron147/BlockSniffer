@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>BlockSniffer</title>
+	
+	
+	<meta charset="utf-8">
+    <meta name="description" content="BlockSniffer">
+    <meta name="Aaron sheridan" content ="BlockSniffer">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+  <link rel="stylesheet" href= "css/style.css" type="text/css" />
+  <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">BlockSniffer</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="Bitcoin.html">Bitcoin</a></li>
+      <li><a href="Ethereum.html">Ethereum</a></li>
+	  
+	  <ul class="nav navbar-nav">
+      <li>  <a href ="Register1.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+	  <li> <a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+
+</nav>
+<div>
+
+<h2 align="center">Welcome to BlockSniffer</h2>
+<h3 align="center">A blockchain Search tool for flagging wallets and Transactions<br>for Further Analysis</h3>
+</div>
+<br><br>
+
+</div>
+
+
+<div>       
+  <table id="Ethereum">
+   <head>
+   <caption>Last 10 Eth Blocks Mined</caption>
+	<tr>
+        <th>Timestamp</th>
+        <th>BlockNo.</th>
+        <th>walletAdd</th>
+    </tr>
+	</head>	
+	<br>
+	<body>
+      <tr>
+        <td>1.00</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+	 </body>
+  </table>
+</div>
+
+  <table id="Bitcoin">
+   <head>
+   <caption>Last 10 Btc Blocks Mined</caption>
+	<tr>
+        <th>Timestamp</th>
+        <th>BlockNo.</th>
+        <th>walletAdd</th>
+    </tr>
+	</head>	
+	<br>
+	<body>
+      <tr>
+        <td>1.00</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+	 </body>
+  </table>
+</div>
+
+
+</body>
+
+
+
+
+	<script>
+		web3 = new Web3(new Web3.providers.HttpProvider("mainnet.infura.io/v3/6f370550fdb54125b6c8130b317e2578"));
+	</script>
